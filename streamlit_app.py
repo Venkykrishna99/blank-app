@@ -43,3 +43,6 @@ with col2:
         disabled=st.session_state.disabled,
         horizontal=st.session_state.horizontal,
     )
+
+
+st.date_input("Today's Date ",value="today",format="YYYY/MM/DD",label_visibility="visible")
